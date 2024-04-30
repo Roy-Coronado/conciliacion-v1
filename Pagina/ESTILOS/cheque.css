@@ -1,0 +1,171 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+
+/* DIV CREACION */
+.elemento1 {
+
+    background-color: rgb(199, 213, 255);
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
+    height: 500px;
+
+}
+
+.elemento1 h3 {
+
+    background-color: rgb(44, 49, 90);
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+
+.titulos1 {
+    display: flex;
+
+}
+
+
+.tituloCheques {
+
+    width: 45%;
+    margin-left: 30px;
+
+}
+
+.tituloObjetosDeGastos {
+
+    width: 42.5%;
+    margin-left: 30px;
+
+}
+
+
+.titulos2 {
+
+    margin-top: 5px;
+    padding: 8px;
+
+}
+
+.subTitulo1 {
+
+    margin-left: 22%;
+
+}
+
+.subTitulo2 {
+
+    margin-left: 6%;
+
+}
+
+.subTitulo3 {
+
+    margin-left: 15%;
+
+}
+
+.subTitulo4 {
+
+    margin-left: 24%;
+}
+
+
+.inputs input {
+
+    padding: 5px;
+
+}
+
+.inputs1 {
+
+    margin-left: 22.5%;
+    width: 10%;
+    margin-right: 3.5%;
+}
+
+.inputs3 {
+    margin-left: 8%;
+    width: 20%;
+}
+
+.inputs4 {
+    margin-left: 6%;
+}
+
+.otrosDatos {
+
+    padding: 40px;
+ 
+}
+
+.otrosDatos input {
+    padding: 6px;
+}
+
+.ordenDe {
+
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.sumaDe {
+
+    width: 8%;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.sumaDe2 {
+
+    width: 37.8%;
+
+}
+
+.detalle {
+
+    width: 49%;
+
+
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+}
+
+.botones button {
+    margin: 0 50px;
+    /* Añade un margen horizontal de 10px a cada lado del botón */
+    padding: 10px;
+    color: white;
+    background-color: rgb(44, 49, 90);
+    border: 1px solid rgb(44, 49, 90);
+    border-radius: 10px;
+    font-size: medium;
+
+}
+
+#contenido input {
+
+    border-radius: 10px;
+    border: 1px solid rgb(44, 49, 90);
+}
+
+
+.botones button:active {
+
+    background-color: #2980b9;
+
+}

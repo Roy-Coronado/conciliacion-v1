@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000; 1,200..1000&display=swap');
+
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+  
+}
+
+
+.contenido {
+
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 990px;
+    border-radius: 10px;    
+    background-color: rgb(199, 213, 255);
+
+}
+
+.titulo h2 {
+
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+    background-color: rgb(44, 49, 90);
+    color: white;
+    margin-top: 0;
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.primerosCampos {
+
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    padding-left: 60%;
+
+}
+
+.primerosCampos input {
+
+    width: 80%;
+    padding: 4%;
+
+}
+
+
+.textos {
+
+    /* background-color: aquamarine; */
+    height: 520px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text1 {
+
+    margin-left: 2%;
+    padding-bottom: 6%;
+
+}
+
+.text2 {
+
+
+    margin-left: 5%;
+    padding-bottom: 3%;
+
+
+}
+
+.subtotalTitulo {
+
+    margin-top: 10%;
+    margin-left: 2%;
+    padding-bottom: 3%;
+
+
+}
+
+.text3 {
+
+    margin-left: 5%;
+    padding-bottom: 2%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Segunda columuna */
+.campos1 {
+
+    /* background-color: bisque; */
+    height: 520px;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campos1 input {
+
+    width: 60%;
+    padding: 2%;
+
+}
+
+
+.inputDate {
+
+
+    margin-bottom: 10%;
+
+
+}
+
+.subtotalCampos1 {
+
+    /* background-color: aliceblue; */
+    margin-left: 50%;
+    margin-bottom: 15%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Tercera columna */
+.campos2 {
+
+
+    /* background-color: rgb(255, 143, 7); */
+    height: 520px;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campos2 button {
+
+    padding: 10px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(44, 49, 90);
+    border-radius: 10px;
+    border: 1px solid;
+
+    margin-bottom: 4%;
+
+}
+
+.campos2 button:active {
+
+    background-color: #2980b9;
+
+}
+
+.campos2 input {
+
+
+    padding: 3%;
+
+}
+
+.primerCampo {
+
+
+    margin-top: 55%;
+
+
+}
+
+.segundoCampo {
+
+    margin-top: 42%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SEGUNDA PARTE */
+
+.content2 {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textos2 {
+
+    /* background-color: aquamarine; */
+    height: 290px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+.campos4 {
+
+    /* background-color: bisque; */
+    height: 290px;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campos4 input {
+
+    width: 60%;
+    padding: 2%;
+
+}
+
+.subtotalCampos1 {
+
+    /* background-color: aliceblue; */
+    margin-left: 50%;
+    margin-bottom: 15%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.campos3 {
+
+/* background-color: rgb(255, 143, 7); */
+    height: 290px;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campos3 input {
+
+
+    padding: 3%;
+
+}
+
+.primerCampo {
+
+
+    margin-top: 55%;
+
+
+}
+
+.segundoCampo {
+
+    margin-top: 42%;
+
+}
+
+
+.tituloSaldo {
+
+    margin-top: 5%;
+    margin-left: 2%;
+    padding-bottom: 6%;
+
+
+}
+
+.campo2_1 {
+
+    margin-top: 20%;
+
+}
+
+.campos3_1 {
+
+    margin-top: 10%;
+    margin-bottom: 46%;
+
+}
+
+.botones {
+
+    /* background-color: red; */
+    text-align: center;
+
+}
+
+.boton1{
+
+    margin-right: 6%;
+    margin-top: 1%;
+
+}
+
+
+
+.botones button {
+
+    font-size: medium;
+    color: white;
+    background-color: rgb(44, 49, 90);
+    border-radius: 10px;
+    border: 1px solid;
+    width: 20%;
+    padding: 1%;
+
+}
+
+.botones button:active {
+
+    background-color: #2980b9;
+
+}

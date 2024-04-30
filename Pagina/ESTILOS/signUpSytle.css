@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-image: url('/imges/FondoWeb.png');
+    background-size: cover;
+    background-image: linear-gradient(to right, #0c00f2be, #00bbff0e);
+    
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+form {
+    background-color: rgb(234, 237, 237, 0.5);
+    height: 320px;
+    width: 350px;
+    /* Ancho del formulario */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.loginTitle {
+    /*Posición del titulo de Iniciar Sesion*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito';
+    padding-left: 45px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+}
+
+.titleUserName {
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+
+.titlePassword {
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+.username,
+.password {
+    width: 250px;
+    /* Ancho del campo de entrada */
+    height: 20px;
+    /* Altura del campo de entrada */
+    text-align: left; /* Centra el texto */
+    padding-left: 2%;
+    font-size: 16px;
+    /* Tamaño del texto */
+
+    border-radius: 10px;
+    border-style: double;
+    border-color: grey;
+}
+
+.form-group {
+    padding-left: 45px;
+}
+
+
+.buttons {
+    display: flex; /* Utilizar flexbox */
+    padding-top: 20px;
+    justify-content: space-between; /* Separar los elementos en el centro */
+    text-align: center;
+}
+
+
+.submit-btn,
+.cancel-btn {
+    width: 140px;
+    /* Espacio alrededor del texto del botón */
+    margin: 20px;
+    /* Espacio entre los botones */
+    background-color: #007bff;
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Borde redondeado */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar sobre el botón */
+    font-weight: 700;
+    padding: 10px;
+}
+
+.cancel-btn {
+    background-color: red;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.vinculo {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Nunito';
+    font-weight: 700;
+}

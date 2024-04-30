@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000; 1,200..1000&display=swap');
+
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/*Div donde esta todo el contenido*/
+.contenido {
+
+    height: 490px;
+    background-color: rgb(199, 213, 255);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    overflow: hidden;
+
+}
+
+/* H2 del titulo Creacion */
+.tituloCreacion {
+
+    background-color: rgb(112, 136, 145);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+    background-color: rgb(44, 49, 90);
+    color: white;
+    margin-top: 0px;
+
+}
+
+/*Div donde esta todo lo de cheques*/
+.cheques {
+
+    margin: 0 20px;
+    height: 360px;
+    width: 650px;
+
+}
+
+/* Div de los primeros campos de Cheque  */
+.campos {
+
+    width: 90%;
+    height: 60px;
+    margin: 0px 0px 0px 290px;
+
+}
+
+.campos button {
+
+    padding: 10px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(44, 49, 90);
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+
+/* Primeros campos de cheque  */
+.campos input {
+
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+    margin: 0px 35px 0px 0px;
+    height: 24px;
+
+}
+
+/* Campos restantes de cheque */
+.segundoCampoCheque input {
+
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+    height: 30px;
+
+}
+
+/* Campo: Paguese a la orden de: */
+.ordenPrimerCampo {
+
+    width: 620px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+
+}
+
+/* Campo: La Suma de: */
+.sumaPrimerCampo {
+
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+
+}
+
+/* Campo: Detalle: */
+.detalleCampo {
+
+    width: 620px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+
+}
+
+/*Div donde esta todo lo de Objetos de Gastos*/
+.gastos {
+
+    margin: -340px 10% 0px 680px;
+    height: 310px;
+    width: 80%;
+
+}
+
+.areaDetalle {
+
+    width: 40%;
+    min-width: 30%;
+    height: 100px;
+}
+
+/* Div donde esta el titulo: Objetos de Gastos*/
+.tituloGastos {
+
+    margin: 0;
+    padding: 10px;
+    width: 700px;
+    border-radius: 5px;
+    border: 1px solid rgb(17, 76, 95);
+    background-color: rgb(74, 110, 176);
+}
+
+/* Campo 1 de Objeto */
+.objeto input {
+
+    padding: 10px;
+    height: 15px;
+    margin: 0px 0px 30px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+
+}
+
+/* Campos finales de Objeto */
+.camposObjeto input {
+
+    padding: 6px;
+    /* height: 20px;
+    width: 360px; */
+    margin: -11px 0px 43px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+
+}
+
+/* Campo 1 de monto */
+.monto input {
+
+    height: 25px;
+    width: 200px;
+    margin: 0px 0px 19px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 76, 95);
+
+}
+
+/*Div donde estan los botones*/
+.botones {
+
+    height: 80px;
+    width: 100px;
+    margin: -90px 0px 0px 850px;
+
+}
+
+/* Botones */
+.botones button {
+
+    padding: 10px;
+    margin: 20px 15px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(44, 49, 90);
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+
+.contenido button:active{
+    
+    background-color: #2980b9;
+
+}
