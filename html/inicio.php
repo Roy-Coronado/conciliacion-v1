@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio </title>
 
-    <!-- <link rel="stylesheet" href="http://localhost/Conciliacion/Pagina/ESTILOS/inicio.css"> -->
-    <link rel="stylesheet" href="../ESTILOS/inicio.css">
+    <link rel="stylesheet" href="../html/inicio.css">
 
 </head>
 
@@ -46,7 +45,7 @@
 
     </main>
 
-    <script src="http://localhost/Conciliacion/Pagina/FUNCIONES/script.js"></script>
+    <script src="../Conciliacion/js/script.js"></script>
 </body>
 
 
