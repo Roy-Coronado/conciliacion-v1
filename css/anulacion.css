@@ -47,7 +47,7 @@ body {
 
     width: 90%;
     height: 60px;
-    margin: 0px 0px 0px 290px;
+    margin: 15px 0px 0px 290px;
 
 }
 
@@ -118,11 +118,23 @@ body {
 
 }
 
-.areaDetalle {
-
-    width: 40%;
-    min-width: 30%;
+/* Estilo personalizado para el textarea */
+.descripcion {
+    width: 300px;
+    /* Ancho personalizado */
     height: 100px;
+    /* Altura personalizada */
+    resize: none;
+    /* Esto evita que el usuario pueda redimensionar el textarea */
+    /* Otros estilos opcionales */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    padding: 10px;
+    /* Espaciado interno */
+    border: 1px solid #ccc;
+    /* Borde */
+    border-radius: 5px;
+    /* Borde redondeado */
 }
 
 /* Div donde esta el titulo: Objetos de Gastos*/
@@ -175,7 +187,7 @@ body {
 
     height: 80px;
     width: 100px;
-    margin: -90px 0px 0px 850px;
+    margin: -50px 0px 0px 850px;
 
 }
 
@@ -192,8 +204,8 @@ body {
 
 }
 
-.contenido button:active{
-    
+.contenido button:active {
+
     background-color: #2980b9;
 
 }

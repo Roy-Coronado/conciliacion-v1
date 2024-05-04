@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
-    <link rel="stylesheet" href="/Conciliacion/css/conciliacion.css">
-
-    <title> Conciliacion </title>
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/conciliacion.css">
 
 </head>
 
 <body>
 
+
     <div class="contenido">
+
+       
 
         <div class="titulo">
 
@@ -34,12 +34,15 @@
 
                 </div>
 
+
                 <label class="text1">SALDO SEGÚN AL LIBRO AL</label>
 
                 <label class="text2"> Más: Depósito </label>
                 <label class="text2"> Cheques acumulados </label>
                 <label class="text2"> Notas de Crédito </label>
                 <label class="text2"> Ajustes </label>
+
+
 
                 <label class="subtotalTitulo"> SUBTOTAL </label>
 
@@ -49,9 +52,13 @@
 
                 <label class="subtotalTitulo"> SALDO CONCILIADO SEGÚN LIBROS AL </label>
 
+
             </div>
 
+
+
             <div class="campos1">
+
 
                 <label for="">Año</label>
                 <input class="inputDate" type="datetime" name="" id="">
@@ -69,9 +76,11 @@
 
                 <label class="subtotalCampos1"> Subtotal </label>
 
+
             </div>
 
             <div class="campos2">
+
 
                 <button type="text"> Realizar Conciliacion </button>
                 <input type="text" name="" id="">
@@ -82,13 +91,17 @@
                 <input class="segundoCampo" type="text">
                 <input type="text">
 
+
             </div>
+
 
         </div>
 
         <hr>
 
+
         <div class="content2">
+
 
             <div class="textos2">
 
@@ -98,9 +111,13 @@
                 <label class="text2"> Menos: Cheques en Circulación </label>
                 <label class="text2"> Más: Ajustes </label>
 
+
+
                 <label class="subtotalTitulo"> SALDO CONCILIADO IGUAL A BANCO AL </label>
 
             </div>
+
+
 
             <div class="campos4">
 
@@ -109,6 +126,7 @@
                 <input type="text" name="" id="">
 
                 <label class="subtotalCampos1"> Subtotal </label>
+
 
             </div>
 
@@ -121,16 +139,22 @@
 
             </div>
 
+
         </div>
 
         <hr>
 
         <div class="botones">
 
+
+
             <button class="boton1" type="button"> Grabar </button>
             <button type="button"> Nuevo </button>
 
+
+
         </div>
+
 
     </div>
 

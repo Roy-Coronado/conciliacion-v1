@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-<html lang="en">
-
 <head>
 
     <meta charset="UTF-8">
@@ -13,14 +11,12 @@
 
 <body>
 
-
     <div class="contenido">
 
-        <img src="/Conciliacion/img/logo.png" alt="No se pudo cargar la imagen">
-
+        <img src="../img/logo.png" alt="No se pudo cargar la imagen">
 
     </div>
-    
+
     <style>
 
         img{
@@ -40,7 +36,7 @@
         }
 
     </style>
-    
+
 </body>
 
 </html>

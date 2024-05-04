@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="es">
 
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title> Inicio </title>
 
-    <link rel="stylesheet" href="/Conciliacion/css/inicio.css">
-    <script src="/Conciliacion/js/script.js"></script>
+    <title> Conciliación </title>
+
+    <link rel="stylesheet" href="../css/inicio.css">
+
+    <script src="../js/script.js"></script>
+    <script src="../js/chequeFunciones.js"></script>
 
 </head>
 
@@ -24,15 +25,14 @@
 
             <a href="#" onclick="cargarPagina('inicio2')"> Inicio </a>
             <a href="#" onclick="cargarPagina('cheque')"> Cheques </a>
-            
+
             <select onchange="seleccionarOpcion(this)">
 
                 <option class="opcion1" value="null"> Operaciones Cks </option>
                 <option class="opcion1" value="anulacion"> Anulación </option>
                 <option class="opcion1" value="sacarDeCirculacion"> Sacar de Circulación </option>
-                
-            </select>
 
+            </select>
 
             <a href="#" onclick="cargarPagina('otrasTrans')"> Otras Transacciones </a>
             <a href="#" onclick="cargarPagina('conciliacion')"> Conciliación </a>
@@ -43,11 +43,7 @@
 
     </header>
 
-
     <main id="contenido">
-
-        
-        
 
     </main>
 
