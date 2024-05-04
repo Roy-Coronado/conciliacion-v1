@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="http://localhost/Conciliacion/Pagina/ESTILOS/anulacion.css">
+    <link rel="stylesheet" href="/Conciliacion/css/anulacion.css">
 
     <title> Conciliacion Bancaria </title>
+
 </head>
 
 <body>
@@ -27,8 +30,6 @@
 
             </div>
 
-
-
             <div class="segundoCampoCheque">
 
                 <label> Fecha: </label> <br>
@@ -47,8 +48,6 @@
 
         </div>
 
-
-
         <div class="gastos">
 
             <div class="objeto">
@@ -57,7 +56,6 @@
                 <input type="date" name="" id="">
 
             </div>
-
 
             <div class="camposObjeto">
 
@@ -68,18 +66,13 @@
 
         </div>
 
-
-
         <div class="botones">
 
             <button type="button"> Anular </button>
 
-
         </div>
 
     </div>
-
-    <script src="script.js"></script>
 
 </body>
 

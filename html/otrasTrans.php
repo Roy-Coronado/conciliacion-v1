@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/Conciliacion/Pagina/ESTILOS/otrasTrans.css">
+    
+    <link rel="stylesheet" href="/Conciliacion/css/otrasTrans.css">
 
     <title> Otras Transacciones </title>
+
 </head>
 
 <body>
@@ -60,9 +64,7 @@
 
         </div>
 
-
     </div>
-
 
 </body>
 

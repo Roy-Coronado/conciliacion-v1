@@ -1,18 +1,23 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title> Inicio </title>
 
-    <link rel="stylesheet" href="../html/inicio.css">
+    <link rel="stylesheet" href="/Conciliacion/css/inicio.css">
+    <script src="/Conciliacion/js/script.js"></script>
 
 </head>
 
 <body>
 
     <header>
+
         <h2 class="logo"> Conciliación </h2>
 
         <nav class="menu">
@@ -35,6 +40,7 @@
             <a href="#" onclick="cargarPagina('Mantenimiento')"> Mantenimiento </a>
 
         </nav>
+
     </header>
 
 
@@ -44,10 +50,6 @@
         
 
     </main>
-
-    <script src="../Conciliacion/js/script.js"></script>
-</body>
-
 
 </body>
 

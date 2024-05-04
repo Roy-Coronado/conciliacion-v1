@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="http://localhost/Conciliacion/Pagina/ESTILOS/sacarCirculacion.css">
+    <link rel="stylesheet" href="/Conciliacion/css/sacarCirculacion.css">
 
     <title> Conciliacion Bancaria </title>
+
 </head>
 
 <body>
@@ -27,8 +30,6 @@
 
             </div>
 
-
-
             <div class="segundoCampoCheque">
 
                 <label> Fecha </label> <br>
@@ -46,8 +47,6 @@
             </div>
 
         </div>
-
-
 
         <div class="gastos">
 
@@ -68,8 +67,6 @@
         </div>
 
     </div>
-
-    <script src="script.js"></script>
 
 </body>
 
