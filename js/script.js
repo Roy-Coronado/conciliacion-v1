@@ -146,5 +146,5 @@ function mostrarMontoEnLetras() {
     var parteDecimal = Math.round((monto - parteEntera) * 100);
     var montoEnLetras = numeroALetras(parteEntera) + ' balboas con ' + (parteDecimal < 10 ? '0' : '') + parteDecimal + '/100';
     console.log(montoEnLetras);
-    document.getElementById("montoLetras").innerHTML =  montoEnLetras;
+    document.getElementById("montoLetras").value =  montoEnLetras;
 }

@@ -57,7 +57,7 @@
 
                             <label class="titulo-paguese">Paguese a la orden de</label>
 
-                            <select class="ordenDe" name="proveedores" id="proveedores">
+                            <select class="ordenDe" name="proveedores" id="proveedores" required>
 
                                 <?php while($proveedores = mysqli_fetch_assoc($tablaProveedores)): ?>
                                     <option value="<?php echo $proveedores['codigo'] ?>"><?php echo $proveedores['nombre'] ?></option>
@@ -69,8 +69,8 @@
 
                             <div class="monto">
 
-                                <input class="input-suma1" type="text" name="montoPagar" id="montoPagar" onblur="mostrarMontoEnLetras()">
-                                <input class="input-suma2" type="text" name="montoLetras" id="montoLetras">
+                                <input class="input-suma1" type="text" name="montoPagar" id="montoPagar" onblur="mostrarMontoEnLetras()" onkeydown="return soloNumeros(event)" required>
+                                <input class="input-suma2" type="text" name="montoLetras" id="montoLetras" disabled>
 
                             </div>
 
@@ -92,7 +92,7 @@
 
                                 <label> Objeto </label>
 
-                                <select name="objeto" id="objeto">
+                                <select name="objeto" id="objeto" required>
 
                                     <?php 
                                         while($objeto = mysqli_fetch_assoc($objetoGasto)) {
@@ -110,7 +110,7 @@
                             <div class="datos-derecha2">
 
                                 <label class="subTitulo4">Monto</label>
-                                <input type="text" name="montoObjeto" id="montoObjeto">
+                                <input type="text" name="montoObjeto" id="montoObjeto" disabled required>
 
                             </div>
 
