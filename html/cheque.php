@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="../css/cheque.css">
     <script src="../js/chequeFunciones.js"></script>
+    <script src="../js/script.js"></script>
 
     <title> Cheque </title>
    
@@ -37,7 +38,7 @@
                             <div class="datos-1">
 
                                 <label class="titulo-numche">N°. de Cheque</label>
-                                <input class="input-numche" type="text" name="numCheque" id="numCheque" required onblur="verificarCheque(this.value)" value="<?php echo $numCheque ?>"> 
+                                <input class="input-numche" type="text" name="numCheque" id="numCheque" required onblur="verificarCheque(this.value)" onkeypress="soloNumeros(this)"  value="<?php echo $numCheque ?>"> 
                     
                             </div>
 
