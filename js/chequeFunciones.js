@@ -3,7 +3,7 @@
 //Funcion para validar si el cheque existe o no en tiempo real con AJAX
 function verificarCheque(numCheque) {
     console.log(numCheque);
-    alert("aqui");
+
     //Se realiza la validacion solo si el numero de cheque ingresado es de longitud de 3
     if (numCheque.length < 3) {
         return; // No se realiza la verificación
