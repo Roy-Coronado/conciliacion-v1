@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
-        echo "Ya existe una transacción con los mismos valores.";
+        echo '<script> alert("Ya existe una transacción con los mismos valores"); </script>';
     } else {
         // Preparar la consulta SQL para insertar los datos
         $sql = "INSERT INTO otros (transaccion, fecha, monto) VALUES (?, ?, ?)";
@@ -26,9 +26,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Ejecutar la consulta
         if ($stmt->execute()) {
-            echo "Transacción guardada correctamente.";
+            echo '<script> alert("Transacción guardada correctamente"); </script>';
         } else {
-            echo "Error al guardar la transacción.";
+            echo '<script> alert("Error al guardar la transacción"); </script>';
         }
 
         // Cerrar la declaración preparada

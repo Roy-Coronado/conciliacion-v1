@@ -1,69 +1,49 @@
+<?php include "../consultas/guardarTransaccion.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/otrasTrans.css">
-
-    <title> Otras Transacciones </title>
+    <link rel="stylesheet" href="../css/otrasTrans.css">
+    <script src="../js/script.js"></script>
+    <title>Otras Transacciones</title>
 </head>
 
 <body>
-
-    <div class="contenedor">
-
-        <div class="titulo">
-
-            <h2> Otras Transacciones - Depositos, Ajustes y Notas (Db / Cr) </h2>
-
-        </div>
-
-
-        <div class="todo">
-
-            <div class="campo1">
-
-                <label for="">Fecha</label>
-                <input type="date" name="" id="">
-
-
-            </div>
-
-            <div class="campo2">
-
-                <label for="">Transacción</label>
-
-                <select name="" id="">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-
-                </select>
-
-                <label for="">Monto</label>
-                <input type="text" name="" id="">
-
-
-                <div class="botones">
-
-                    <button type="button"> Grabar </button>
-
-                    <div style="padding: 10px;"> </div>
-                    
-                    <button type="button"> Nuevo </button>
-
+    <main id="mainTransacciones">
+        <div class="contenedor">
+            <form action="" method="post" onsubmit="validarCamposOtrasTransacciones(event);">
+                <div class="titulo">
+                    <h2>Otras Transacciones - Depositos, Ajustes y Notas (Db / Cr)</h2>
                 </div>
-
-            </div>
-
+                <div class="todo">
+                    <div class="campo1">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+                    <div class="campo2">
+                        <label for="transaccion">Transacción</label>
+                        <select name="transaccion" id="transaccion">
+                            <?php include '../consultas/transaccionesConsulta.php'; obtenerOpcionesTransacciones($conect); ?>
+                        </select>
+                        <label for="monto">Monto</label>
+                        <input type="text" name="monto" id="monto" onkeydown="return soloNumeros(event)">
+                        <div class="botones">
+                            <button type="submit">Grabar</button>
+                            <button type="reset">Nuevo</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-
-
-    </div>
-
-
+    </main>
 </body>
-
+<script>
+        function limpiarCampos() {
+            document.getElementById("fecha").value = "";
+            document.getElementById("transaccion").selectedIndex = 0;
+            document.getElementById("monto").value = "";
+        }
+    </script>
 </html>
