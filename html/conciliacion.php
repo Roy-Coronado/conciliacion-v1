@@ -78,9 +78,12 @@
                 <label class="subtotalCampos1"> Subtotal </label>
             </div>
             <div class="campos3">
+
                 <input class="campos3_1" type="text" value="<?php echo $saldoBanco?>">
-                <input type="text">
-                <input type="text">
+                <input type="text"  value="<?php echo $chequesCirculacion?>">
+                <input type="text"  value="<?php echo $saldoBanco?>">
+            
+
             </div>
         </div>
         <hr>
