@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/cheque.css">
+
     <script src="../js/chequeFunciones.js"></script>
     <script src="../js/script.js"></script>
 
@@ -69,7 +70,7 @@
                             <div class="monto">
 
                                 <input class="input-suma1" type="text" name="montoPagar" id="montoPagar">
-                                <input class="input-suma2" type="text" name="montoLetras" id="montoLetras">
+                                <input class="input-suma2" type="text" name="montoLetras" id="montoLetras" onchange="mostrarMontoEnLetras()">
 
                             </div>
 
