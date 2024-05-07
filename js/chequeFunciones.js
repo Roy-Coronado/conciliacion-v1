@@ -58,6 +58,7 @@ function pasarMonto (){
     console.log("FUNCIONO");
 
     var montoPagar = document.getElementById("montoPagar");
+    alert(montoPagar);
     var montoObjeto = document.getElementById("montoObjeto");
 
     montoPagar.addEventListener("input",function(){
