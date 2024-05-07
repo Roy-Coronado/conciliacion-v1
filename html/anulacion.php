@@ -27,7 +27,7 @@
 
                 <label> No. de Cheque </label> <br>
 
-                <input type="text" name="numero_cheque" id="numero_cheque"value="<?php  echo $numero_cheque?>">
+                <input type="text" name="numero_cheque" onkeydown="return soloNumeros(event)" id="numero_cheque"value="<?php  echo $numero_cheque?>">
 
                 <button type="submit" name="buscar">Buscar</button>
 
