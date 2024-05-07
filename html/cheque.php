@@ -17,7 +17,7 @@
    
 </head>
 
-<body>
+<body onload="pasarMonto()">
 
     <main id="contenido">
 
@@ -70,7 +70,7 @@
                             <div class="monto">
 
                                 <input class="input-suma1" type="text" name="montoPagar" id="montoPagar">
-                                <input class="input-suma2" type="text" name="montoLetras" id="montoLetras" onkeypress="pasarMonto()" onkeydown="mostrarMontoEnLetras()">
+                                <input class="input-suma2" type="text" name="montoLetras" id="montoLetras" onkeydown="mostrarMontoEnLetras()">
 
                             </div>
 

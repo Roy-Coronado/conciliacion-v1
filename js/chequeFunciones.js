@@ -54,6 +54,9 @@ function resetearCampos() {
 
 //Funcion para pasar el monto a montoObjeto
 function pasarMonto (){
+
+    console.log("FUNCIONO");
+
     var montoPagar = document.getElementById("montoPagar");
     var montoObjeto = document.getElementById("montoObjeto");
 
