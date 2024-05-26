@@ -1,0 +1,78 @@
+/* file.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(199, 213, 255);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.title {
+    font-size: 24px;
+    color: rgb(44, 49, 90);
+    margin-bottom: 20px;
+}
+
+.contenido-principal, .reportes {
+    margin-bottom: 20px;
+}
+
+.lado-izquierdo, .reportes div {
+    margin-bottom: 10px;
+}
+
+.lado-izquierdo label, .reportes label {
+    font-size: 16px;
+    color: rgb(44, 49, 90);
+    margin-bottom: 5px;
+    margin-right: 5%;
+    display: block;
+}
+
+.lado-izquierdo input[type="file"], .reportes input[type="date"], .reportes input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 5px;
+    border: 1px solid rgb(44, 49, 90);
+    border-radius: 5px;
+}
+
+.boton, .reportes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton button, .reportes button {
+    background-color: rgb(44, 49, 90);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.boton button:hover, .reportes button:hover {
+    background-color: rgb(35, 39, 70);
+}
+
+
+.boton button:active, .reportes button:active {
+
+    background-color: #2980b9;
+
+}
